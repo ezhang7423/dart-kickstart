@@ -1,0 +1,1 @@
+nodemon -x "gen_soln $($args[0]) | clip & gen_soln $($args[0])" -e dart

@@ -15,10 +15,11 @@ You can find the path of the solution you want in `./lib`
 
 ## development
 
-`./regen_soln.ps1. ./<year>/<round>/<problem>.dart`
+`./regen_soln.ps1. ./lib/k<year>/<round>/<problem>.dart`
 Continuously recompiles soln and pastes to clipboard on save of file.
 
-e.g. `./regen_soln 2013/practice-round/captain_hammer.dart`
+e.g. `./regen_soln ./lib/2013/practice-round/captain_hammer.dart`
+
 ## why?
 
 starting to fall in love with this language. it takes the best parts of

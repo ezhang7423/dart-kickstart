@@ -1,0 +1,1 @@
+[System.Environment]::SetEnvironmentVariable('kickstart_debug','true')
